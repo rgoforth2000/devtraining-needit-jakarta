@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element label="Needit Reason" max_length="255" name="needit_reason" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Suggestion" max_length="40" name="u_suggestion" type="string"/>
+    </element>
+</database>
